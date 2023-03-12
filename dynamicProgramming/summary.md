@@ -12,7 +12,7 @@
 ### 예시
 피보나치  수열
 
-```Python
+```python
 def fib(n):
     if n == 0:
         return 0
@@ -30,7 +30,7 @@ def fib(n):
 
 fib(2)가 중복 계산, 이는 속도를 떨어뜨린다. -> 각 함수의 계산값을 저장하는 객체 m을 추가
 
-```Python
+```python
 m = {0: 1, 1: 1}
 
 def fib(n):
