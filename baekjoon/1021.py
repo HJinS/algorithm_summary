@@ -13,7 +13,7 @@ N, M = map(int, sys.stdin.readline().rstrip().split(' '))
 arr = list(map(int, sys.stdin.readline().rstrip().split(' ')))
 deq = deque([i for i in range(1, N+1)])
 """
-해당 원소가 dequed에서 어디에 있는지 위치를 알아야 한다.
+해당 원소가 deque에서 어디에 있는지 위치를 알아야 한다.
 그 위치를 기준으로 중앙에서 왼쪽인지 오른쪽인지에 따라 pop 및 push의 방향을 결정한다.
 """
 count = 0
